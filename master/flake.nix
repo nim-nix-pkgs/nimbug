@@ -11,7 +11,6 @@
   inputs.src-nimbug-master.ref   = "refs/heads/master";
   inputs.src-nimbug-master.owner = "juancarlospaco";
   inputs.src-nimbug-master.repo  = "nimbug";
-  inputs.src-nimbug-master.dir   = "";
   inputs.src-nimbug-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
